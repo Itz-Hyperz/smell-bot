@@ -6,6 +6,10 @@ const token = 'a1b2c3d4e5f6g8h9'
 const prefix = '!'
 
 client.on('ready', ready => {
+    
+    
+    client.user.setPresence({activity: { name: `you not shower...`, type: `WATCHING` }, status: `dnd` })
+    
     console.log("Smell Bot is now online!")
     console.log("Please note, I did this in a rush so I could go play siege, I was challenged and that is why I didn't take the time to clean the code, or make it 80x more effecient and clean. This is a BAD representation of my work.")
     console.log("--- LOGGING BEGINS ---")
